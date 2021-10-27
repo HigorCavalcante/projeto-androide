@@ -1,0 +1,176 @@
+
+
+@font-face {
+    font-family:idroid;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+:root {
+    --cor0: #81E698;
+    --cor1: #5ed6789f;
+    --cor2: #569965;
+    --cor3: #343B35;
+    --cor4: #5C9E6A;
+    --cor5: #ffffff;
+
+    --fonte-padrão: verdana, arial, helvetica, sans-serif;
+    --fonte-idroid: idroid, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* =====================CORPO=========================== */
+body{
+    font-family: var(--fonte-padrão);
+    margin: 0% 0% 0% 0% ;
+    font-size: 16px;
+    background: var(--cor0);
+
+}
+abbr{
+    text-decoration: underline;
+}
+.h{
+    margin: 0%; 
+    padding: 0%;
+}
+.header{
+    padding: 10px 0px 30px 0px;
+}
+h1,h2,h3{
+    padding: 5px;
+    color: var(--cor3);
+    background-image:linear-gradient(to right, var(--cor1), transparent) ;
+    font-family: var(--fonte-idroid);
+}
+main p{
+    font-size: 1em;
+    line-height: 35px;
+    margin-top: 10px;
+}
+strong{
+    color: rgba(3, 3, 3, 0.623);
+    background: var(--cor1);
+    padding: 5px;
+}
+
+a{
+    padding: 5px;
+    font-weight: bold;
+    color: var(--cor2);
+}
+
+ul > li {
+    text-decoration: double;
+}
+
+.centro{
+margin-left: 30%;
+}
+
+/* ============================ FINAL=================== */
+footer{
+    height: 30%;
+    color: var(--cor5);
+    text-align: center;
+    bottom: 0%;
+    padding: 10px;
+    font-weight: bold;
+    background: var(--cor3);
+
+}
+
+/* =========================CABEÇALHO================== */
+header{
+    padding: 10px;
+    top: 1px;
+    height: 30%;
+    margin: 0% 0% 0% 0%;
+    background: var(--cor3);
+    box-shadow: 1px  1px 5px 0px var(--cor3);
+    border-radius: 0px 0px 20px 20px;
+}
+
+header > p{
+    top: 100px;
+    text-align: center;
+    color: var(--cor4);
+    margin: 0px;
+}
+header > h1{
+    background: none;
+    text-align: center;
+    color:var(--cor4);
+}
+/* ============================CORPO CENTRAL======================== */
+main{
+    min-width: 300px;
+    max-width: 900px;
+    background: var(--cor5);
+    margin: 30px auto 30px auto;
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 30px;
+    box-shadow: 1px 1px 9px 0px;
+}
+/* =========================MENU====================== */
+
+.menua{
+    color:var(--cor5);
+    text-decoration: none;
+    margin-right: 7px;
+}
+.menua:hover{
+    padding: 8px;
+    border-radius: 10px;
+    background: var(--cor5);
+    color:var(--cor4);
+}
+/* =======================ARTICLE======================= */
+article > p{
+    text-indent: 20px;
+}
+.list{
+    color:var(--cor5);
+    padding:10px;
+    border-radius: 10px 10px 0px 0px;
+    background: var(--cor4);
+    margin: 0%;
+}
+.lists{
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    background: var(--cor0);
+    text-decoration: none;
+}
+#lista{
+    list-style: none;
+    padding: 0px 20px;
+}
+#video{
+    background: var(--cor3);
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 57%;
+}
+div#video > iframe{
+    position: absolute;
+    top: 5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+}
+img{
+    width: 100%;
+}
+
+/* largura whitE  */
+main img.pequena{
+    max-width: 320px;
+    display: block;
+    margin: auto;
+}
+ p, h1, h2, img{
+margin: 5px 0px 5px 0px; 
+}
